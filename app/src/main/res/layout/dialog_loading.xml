@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        style="@style/loadingDialogStyle"
+        android:theme="@style/Widget.MaterialComponents.CardView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:id="@+id/loading_dialog"
+>
+
+    <ProgressBar
+            android:layout_width="60dp"
+            android:layout_height="60dp" android:layout_gravity="center_horizontal" android:layout_marginTop="25dp"
+            android:indeterminateTint="@color/colorPrimary" android:id="@+id/progress"/>
+
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp" android:layout_gravity="center_horizontal" android:layout_marginTop="25dp"
+            android:id="@+id/error_icon"
+            android:src="@drawable/ic_error" android:visibility="invisible"/>
+
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp" android:layout_gravity="center_horizontal" android:layout_marginTop="25dp"
+            android:id="@+id/done_icon"
+            android:src="@drawable/ic_action_done" android:visibility="invisible"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorBackgroundFloating"
+            android:text="@string/panic" android:layout_marginTop="100dp" android:textAlignment="center"
+            android:textSize="20sp" android:textStyle="bold" app:fontFamily="sans-serif"
+            android:id="@+id/loadingTitle"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

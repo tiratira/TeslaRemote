@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:id="@+id/remote_container">
+
+
+    <TextView
+            android:text="@string/remote_key_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_marginEnd="18dp"
+            android:layout_marginStart="18dp" android:textColor="@android:color/background_dark"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+                app:boxCornerRadiusTopEnd="8dp"
+                app:boxCornerRadiusTopStart="8dp"
+                app:boxBackgroundColor="#f5f5f5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:textColorHint="@color/colorPrimary"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="18dp"
+                android:layout_marginRight="18dp">
+            <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
+                    android:maxLength="16"
+                    android:id="@+id/remote_password"
+                    android:textColor="@color/colorPrimaryDark"/>
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp">
+
+
+        <Button
+                android:text="@string/confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/confirm_key_button"
+                tools:layout_editor_absoluteY="8dp"
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="18dp"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:foreground="@drawable/custom_ripple"
+                android:onClick="onClick"/>
+        <Button
+                android:text="@string/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/cancel_key_button"
+                tools:layout_editor_absoluteY="8dp"
+                app:layout_constraintEnd_toStartOf="@+id/confirm_key_button" android:layout_marginEnd="8dp"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:foreground="@drawable/custom_ripple"
+                android:onClick="onClick"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

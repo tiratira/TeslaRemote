@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Tesla Remote</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="user_data">user_data</string>
+    <string name="user_email">user_email</string>
+    <string name="user_password">user_password</string>
+    <string name="user_token">user_token</string>
+    <string name="user_vehicle_id">user_vehicle_id</string>
+    <string name="user_vehicle_data">user_vehicle_data</string>
+
+    <string name="channel_name">Error Dispatch</string>
+    <string name="channel_description">To post errors lead to app crashes.</string>
+    <string name="api_client_id">81527cff06843c8634fdc09e8ac0abefb46ac849f38fe1e431c2ef2106796384</string>
+    <string name="api_client_secret">c7257eb71a564034f9419ee651c7d0e5f7aa6bfbd18bafb5c5c033b093bb2fa3</string>
+    <string name="synchronizing">Synchronizing..</string>
+    <string name="panic">DON\'T PANIC!</string>
+    <string name="select_vehicle_title">Your Tesla Vehicles</string>
+    <string name="select_vehicle_hint">Please select one vehicle for your widget:</string>
+    <string name="change_account_title">Reset Account?</string>
+    <string name="change_account_message">This will clean all your account data, you need to login a new account to
+        continue.
+    </string>
+    <string name="confirm">CONFIRM</string>
+    <string name="cancel">CANCEL</string>
+    <string name="login_account">SUBMIT</string>
+    <string name="login_hint">Please login to your Tesla Account:</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="splash_hint">Faster Way to Remote Your Tesla</string>
+    <string name="button_continue">CONTINUE</string>
+    <string name="change_account">Change Account</string>
+    <string name="create_widget">Create Widget</string>
+    <string name="connection_error">Connection Error!</string>
+    <string name="off_line">Connection Offline</string>
+    <string name="climate_command">Sending Climate command…</string>
+    <string name="lock_command">Sending Lock command…</string>
+    <string name="places_nearby">Places nearby:</string>
+    <string name="send_location">Send to Tesla Navigation</string>
+    <string name="sent_success">Sent Successfully!</string>
+    <string name="remote_key_hint">This will allow your Tesla vehicle driving without key. Please input your Tesla Account password to continue:</string>
+    <string name="remote_start_title">Remote Start</string>
+    <string name="waking_hint">Waking up Tesla...</string>
+    <string name="close">Close</string>
+    <string name="success">Success!</string>
+</resources>

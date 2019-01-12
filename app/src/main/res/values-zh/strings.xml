@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">特斯拉遥控</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="user_data">user_data</string>
+    <string name="user_email">user_email</string>
+    <string name="user_password">user_password</string>
+    <string name="user_token">user_token</string>
+    <string name="user_vehicle_id">user_vehicle_id</string>
+    <string name="user_vehicle_data">user_vehicle_data</string>
+
+    <string name="channel_name">错误提示</string>
+    <string name="channel_description">显示必要的错误讯息。</string>
+    <string name="api_client_id">81527cff06843c8634fdc09e8ac0abefb46ac849f38fe1e431c2ef2106796384</string>
+    <string name="api_client_secret">c7257eb71a564034f9419ee651c7d0e5f7aa6bfbd18bafb5c5c033b093bb2fa3</string>
+    <string name="synchronizing">同步信息中…</string>
+    <string name="panic">DON\'T PANIC!</string>
+
+    <string name="select_vehicle_title">您的特斯拉车辆</string>
+    <string name="select_vehicle_hint">请选择一辆特斯拉作为您的微件显示：</string>
+    <string name="change_account_title">重置账号?</string>
+    <string name="change_account_message">该操作将会抹去您的账号信息，因此您需要重新输入新的账号。</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="login_account">登录</string>
+    <string name="login_hint">请提供您的Tesla账号：</string>
+    <string name="email">邮箱</string>
+    <string name="password">密码</string>
+    <string name="splash_hint">更加快捷的控制您的特斯拉</string>
+    <string name="button_continue">点击继续</string>
+    <string name="change_account">切换账号</string>
+    <string name="create_widget">创建微件</string>
+    <string name="connection_error">服务器错误！</string>
+    <string name="off_line">车辆离线</string>
+    <string name="climate_command">发送空调命令…</string>
+    <string name="lock_command">发送门锁命令…</string>
+    <string name="places_nearby">附近的地点：</string>
+    <string name="send_location">发送地址到车辆</string>
+    <string name="sent_success">发送成功！</string>
+    <string name="remote_key_hint">该操作将会使您的特斯拉不需要钥匙即可开动。请提供您的Tesla账号密码已确认：</string>
+    <string name="remote_start_title">无钥匙启动</string>
+    <string name="waking_hint">唤醒特斯拉…</string>
+    <string name="close">关闭</string>
+    <string name="success">启用成功！</string>
+
+</resources>

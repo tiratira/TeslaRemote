@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="120dp">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:background="@drawable/card_background"
+            android:padding="12dp"
+            android:foreground="@drawable/custom_ripple"
+            android:clickable="true"
+            android:id="@+id/vehicle_card" >
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="MODEL S 75D" android:textColor="@color/colorPrimaryDark"
+                  android:textStyle="bold" android:textSize="16sp" android:fontFamily="sans-serif"
+                  android:id="@+id/vehicle_model"/>
+        <TextView
+                android:text="My Tesla Vehicle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/vehicle_name" android:layout_marginTop="20dp"
+                android:textSize="22sp" android:textColor="?attr/colorBackgroundFloating"
+                android:textStyle="bold"
+        />
+        <TextView
+                android:text="VIN:2131454353453453"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/vehicle_vin" android:layout_marginTop="52dp"
+                android:textStyle="bold" android:textColor="?attr/colorButtonNormal"/>
+        <ImageView android:layout_width="36dp" android:layout_height="36dp"
+                   android:src="@drawable/ic_action_selected" android:layout_gravity="right|center_vertical"
+                   android:layout_marginRight="8dp" android:id="@+id/vehicle_selected" android:visibility="invisible"/>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:background="@android:color/white"
+        android:foreground="@drawable/custom_ripple"
+        android:focusable="true"
+        android:id="@+id/address_item">
+    <TextView
+            android:text="CMC大楼服务中心"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/poi_item_title"
+            android:textSize="16sp" android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"/>
+    <TextView
+            android:text="海陵区药城大道1号"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/poi_item_addr" android:layout_marginStart="12dp"
+            android:layout_marginTop="4dp" android:layout_marginEnd="12dp"
+            android:textColor="@android:color/darker_gray"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

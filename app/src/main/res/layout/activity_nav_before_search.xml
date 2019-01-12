@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/container"
+        android:clickable="false"
+        android:focusable="false">
+
+    <com.amap.api.maps.MapView
+            android:id="@+id/amap"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="0dp"
+            android:visibility="invisible"/>
+
+    <com.google.android.gms.maps.MapView
+            android:id="@+id/googlemap"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="0dp"
+            android:visibility="invisible"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="260dp"
+            android:layout_marginStart="12dp" android:layout_marginEnd="12dp" android:text="@string/places_nearby"
+            android:textColor="@color/place_autocomplete_prediction_secondary_text"
+            android:textAllCaps="false"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/poiView"
+            android:layout_marginTop="288dp"
+            android:clickable="false"
+            android:focusable="false"
+    />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
